@@ -6,13 +6,13 @@
   letter-spacing: 1.6px;
 }
 body {
-  background-color: #333; /* CHANGED: Dark background for the body */
-  color: #f9fafb; /* CHANGED: Light text color for better contrast */
+  background-color: #333;
+  color: #f9fafb;
 }
 h1,
 h2,
 h3 {
-  color: #f9fafb; /* CHANGED: Light headings for the dark theme */
+  color: #f9fafb;
   font-weight: 700;
 }
 a {
@@ -22,13 +22,11 @@ a {
 
 header {
   background: linear-gradient(to bottom, #222, #333);
-  /* Your other header styles */
   padding: 20px;
-  color: #f9fafb; /* CHANGED: Slightly darker header for depth */
+  color: #f9fafb;
   border-bottom: 1px solid linear-gradient(to bottom, #222, #333);
-  /* Your other header styles */
   padding: 20px;
-  color: #f9fafb; /* CHANGED: Darker border for the header */
+  color: #f9fafb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,8 +42,8 @@ header {
 #logo_head {
   font-size: 1.5em;
   font-weight: 700;
-  background-color: #00b3ff; /* CHANGED: Neon accent color for logo head */
-  color: #222; /* CHANGED: Dark text for contrast on bright background */
+  background-color: #00b3ff;
+  color: #222;
   padding: 10px;
   margin-right: 5px;
   border-radius: 45%;
@@ -56,7 +54,7 @@ header {
   font-size: 1.2em;
   font-weight: 400;
   color: #f9fafb;
-  text-shadow: 2px 2px 4px #00bcd4; /* CHANGED: Light text color for logo text */
+  text-shadow: 2px 2px 4px #00bcd4;
   padding: 10px 5px;
 }
 
@@ -80,7 +78,7 @@ nav .togglebtn {
 
 .togglebtn span {
   display: block;
-  background-color: #00b3ff; /* CHANGED: Neon accent for hamburger bars */
+  background-color: #00b3ff;
   width: 100%;
   height: 3px;
   transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
@@ -94,7 +92,7 @@ nav .navlinks {
   padding: 0;
 }
 .navlinks a {
-  color: #f9fafb; /* CHANGED: Light color for default nav links */
+  color: #f9fafb;
 }
 .navlinks a:hover {
   transition: 0.3s ease-in;
@@ -120,7 +118,7 @@ nav .navlinks {
   height: 300px;
   object-fit: cover;
   border-radius: 45%;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); /* CHANGED: Darker shadow for dark theme */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
   margin: 40px 0 40px 60px;
   padding: 5px;
   display: block;
@@ -128,7 +126,7 @@ nav .navlinks {
 }
 .hero img:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px 0 #ca2422; /* CHANGED: Blurred red glow around the whole image */
+  box-shadow: 0 0 20px 0 #ca2422;
 }
 
 #intro {
@@ -136,11 +134,11 @@ nav .navlinks {
   margin: 20px auto 20px auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #222; /* Darker background for intro section */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* Darker shadow */
-  font-size: 1.1em; /* Enhanced readability */
-  line-height: 1.8; /* Better line spacing */
-  color: #e0e1dd; /* Light gray for body text */
+  background-color: #222;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #e0e1dd;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -158,7 +156,7 @@ h2 span {
   text-shadow: 2px 2px 3px #00bcd4;
 }
 #intro p {
-  color: #e0e1dd; /* CHANGED: Slightly lighter text for readability on dark background */
+  color: #e0e1dd;
 }
 .section {
   position: relative;
@@ -178,7 +176,7 @@ h2 span {
   margin: 8px auto 5px auto;
   width: 100px;
   height: 3px;
-  background-color: #00b3ff; /* CHANGED: Neon underline for emphasis */
+  background-color: #00b3ff;
   border-radius: 5px;
 }
 
@@ -193,18 +191,18 @@ h2 span {
 
 .section:hover {
   background-color: #2a2a2a;
-  box-shadow: 0 4px 20px #0ff0fc; /* CHANGED: Darker shadow on hover */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* CHANGED: Smooth transition for hover effect */
+  box-shadow: 0 4px 20px #0ff0fc;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .section p {
-  font-size: 1.1em; /* SLIGHTLY LARGER: Enhanced readability */
-  line-height: 1.8; /* IMPROVED: Better line spacing for large blocks of text */
-  color: #e0e1dd; /* Light gray for body text on dark background */
-  margin-bottom: 20px; /* Space between paragraphs */
-  max-width: 700px; /* Constrain paragraph width for readability */
-  margin-left: auto; /* Center the paragraph if max-width is applied */
-  margin-right: auto; /* Center the paragraph if max-width is applied */
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #e0e1dd;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Specific styling for #my_interests */
@@ -254,17 +252,16 @@ h2 span {
 }
 
 .skills_category {
-  /* HIGHLIGHT START */
-  display: flex; /* CHANGED: Make skill category a flex container for its items */
-  flex-wrap: wrap; /* ADDED: Allows individual skill items to wrap within the category */
-  justify-content: center; /* ADDED: Centers skill items within the category */
-  align-items: flex-start; /* ADDED: Aligns items to the top of the cross-axis */
-  gap: 20px; /* ADDED: Gap between individual skill items */
-  flex: 1 1 calc(50% - 15px); /* ADDED: Allows categories to grow/shrink, aiming for 2 per row */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 1 calc(50% - 15px);
   max-width: calc(
     50% - 15px
-  ); /* ADDED: Max width for categories, considering gap */
-  min-width: 280px; /* ADDED: Ensures categories don't get too small */
+  );
+  min-width: 280px;
   background-color: #444;
   border-radius: 8px;
   padding: 20px;
@@ -273,39 +270,34 @@ h2 span {
 }
 
 .skills_category p {
-  /* HIGHLIGHT START */
-  width: 100%; /* ADDED: Ensures category title takes full width within its flex container */
-  margin-bottom: 20px; /* ADJUSTED: More space below category title */
-  /* HIGHLIGHT END */
+  width: 100%;
+  margin-bottom: 20px;
   font-weight: 700;
   color: #00bcd4;
   font-size: 1.1em;
 }
 
 .skills {
-  /* HIGHLIGHT START */
-  background-color: #333; /* ADDED: Dark background for each individual skill div */
-  border-radius: 8px; /* ADDED: Rounded corners for skill divs */
-  padding: 15px; /* ADDED: Padding inside each skill div */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* ADDED: Initial shadow for skill divs */
-  transition: all 0.3s ease-in-out; /* ADDED: Smooth transition for hover effects */
-  flex: 0 0 calc(50% - 10px);/* flex-grow,flex-shrink shorthand */
+  background-color: #333;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  flex: 0 0 calc(50% - 10px);
   max-width: calc(
     50% - 10px
-  ); /* ADDED: Ensures width doesn't exceed 50% minus gap */
-  min-width: 120px; /* ADDED: Minimum width for skill items to prevent squishing */
-  display: flex; /* ADDED: Make skill div a flex container for its content */
-  flex-direction: column; /* ADDED: Stack icon name and image vertically */
-  align-items: center; /* ADDED: Center icon name and image horizontally */
-  justify-content: center; /* ADDED: Center content vertically within the div */
-  /* REMOVED: margin-bottom: 15px; (now handled by 'gap' on parent .skills_category) */
-  /* HIGHLIGHT END */
+  );
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills:hover {
   background-color: #4a4a4a;
   box-shadow: 0 0 20px #00b3ff;
-  transform: translateY(-5px); /* ADDED: Slight lift effect on hover */
+  transform: translateY(-5px);
 }
 
 .skills h3 {
@@ -324,31 +316,31 @@ h2 span {
 /* Media query adjustments for skills section */
 @media screen and (max-width: 768px) {
   #skills_summary {
-    flex-direction: column; /* CHANGED: Stack skill categories vertically on mobile */
-    align-items: center; /* ADDED: Center skill categories */
+    flex-direction: column;
+    align-items: center;
   }
 
   .skills_category {
-    flex: 0 0 100%; /* CHANGED: Each category takes full width on mobile */
+    flex: 0 0 100%;
     max-width: 100%;
-    padding: 15px; /* ADJUSTED: Less padding on mobile */
+    padding: 15px;
   }
 
   .skills {
-    flex: 0 0 calc(50% - 10px); /* Still two per row within category on mobile */
+    flex: 0 0 calc(50% - 10px);
     max-width: calc(50% - 10px);
-    padding: 10px; /* ADJUSTED: Less padding on mobile */
+    padding: 10px;
   }
   .skills h3 {
-    font-size: 0.9em; /* ADJUSTED: Smaller font on mobile */
+    font-size: 0.9em;
   }
   .skills img {
-    width: 40px; /* ADJUSTED: Smaller icons on mobile */
+    width: 40px;
     height: 40px;
   }
 }
 .skills img {
-  filter: invert(0.9) saturate(2); /* ADDED: Invert/saturate for light icons on dark background (adjust as needed) */
+  filter: invert(0.9) saturate(2);
   width: 50px;
   height: 50px;
   object-fit: contain;
@@ -356,7 +348,7 @@ h2 span {
 
 /* Footer Styling */
 footer {
-  background-color: #1a1a1a; /* CHANGED: Even darker footer for emphasis */
+  background-color: #1a1a1a;
   color: #f9fafb;
   padding: 30px 20px;
   text-align: center;
@@ -373,13 +365,13 @@ footer {
 }
 
 #footer-container a {
-  color: #00bcd4; /* CHANGED: Neon accent for footer links */
+  color: #00bcd4;
   text-decoration: underline;
   margin: 0 5px;
 }
 
 #footer-container a:hover {
-  color: #6a9eff; /* CHANGED: Slightly different neon on hover */
+  color: #6a9eff;
 }
 
 /* --- */
@@ -399,13 +391,13 @@ footer {
   #intro {
     margin: 20px auto;
     text-align: center;
-    background-color: #222; /* Ensure consistency with desktop dark mode */
+    background-color: #222;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   }
 
   /* Specific header and navigation adjustments for mobile */
   header {
-    background: #222; /* CHANGED: Dark header background for mobile */
+    background: #222;
     padding: 15px 20px;
   }
 
@@ -415,7 +407,7 @@ footer {
   }
 
   #logo_text {
-    color: #f9fafb; /* CHANGED: Light text for logo on dark mobile header */
+    color: #f9fafb;
   }
 
   nav {
@@ -435,7 +427,7 @@ footer {
   }
 
   .togglebtn span {
-    background-color: #00bcd4; /* CHANGED: Neon bars for visibility on dark background */
+    background-color: #00bcd4;
   }
 
   /* Hamburger to X animation */
@@ -451,7 +443,7 @@ footer {
 
   /* Mobile navigation menu overlay */
   .navlinks {
-    background-color:rgba(34, 34, 34, 0.95); /* CHANGED: Darker background for mobile menu overlay */
+    background-color:rgba(34, 34, 34, 0.95);
     height: 100vh;
     width: 100%;
     max-width: 100%;
@@ -476,11 +468,11 @@ footer {
   }
 
   .navlinks a {
-    color: #f9fafb; /* CHANGED: Light links for the dark mobile menu */
+    color: #f9fafb;
     font-size: 1.5em;
   }
   .navlinks a:hover {
-    color: #00bcd4; /* CHANGED: Neon hover for mobile links */
+    color: #00bcd4;
   }
 
   /* Adjustments for #my_interests image on mobile */
