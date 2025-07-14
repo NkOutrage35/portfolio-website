@@ -120,7 +120,7 @@ nav .navlinks {
   object-fit: cover;
   border-radius: 45%;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
-  margin: 40px 0 40px 250px;
+  margin: 40px 0 40px 50px;
   padding: 5px;
   display: block;
   transition: 0.5s ease-in;
@@ -359,7 +359,7 @@ h2 span {
 
 .project.project_styling {
   background-color: #333;
-  border-radius: 10px; 
+  border-radius: 10px;
   padding: 22px;
   width: 100%;
   height: 100vh;
@@ -397,8 +397,8 @@ h2 span {
 }
 
 .project.project_styling img {
-  max-width: 100%;
-  height: 60vh;
+  max-width: 100%; /* Ensures image scales down to fit its container */
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 18px;
@@ -593,9 +593,34 @@ footer {
   #my_interests img {
     max-width: 70%;
   }
-  /* Adjustments for social links on mobile. */
   .social-links {
     flex-direction: column;
     gap: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .project {
+      flex-basis: calc(50% - 20px); /* Two projects per row */
+    }
+  }
+  @media (max-width: 480px) {
+    #projects_summary_container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project {
+      flex-basis: 50%;
+      max-width: 350px;
+      margin-bottom: 20px;
+    }
+
+    .project h4 {
+      font-size: 1.2em;
+    }
+
+    .project p {
+      font-size: 0.9em;
+    }
   }
 }
